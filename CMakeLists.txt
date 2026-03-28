@@ -12,13 +12,10 @@ set(CMAKE_CXX_STANDARD 17)
 file(GLOB SOURCES
     src/ArchStlLoader.cpp
     src/allmain.cpp
-    src/pch.cpp
 )
 
 set(HEADERS
     src/ArchStlLoader.h
-    src/framework.h
-    src/pch.h
 )
 
 # Create a shared library (DLL)
